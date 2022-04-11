@@ -1,0 +1,19 @@
+# Example code of what this file could look like
+# Not yet implemented!
+- type: yaml
+  structure: str
+
+- type: json
+  structure: str
+
+- type: person
+  structure:
+    implements:
+      - name: str
+      - surname: str
+      
+- type: specialPerson
+  structure:
+    dict:
+      - email: task(isValidEmail)
+      - id: str

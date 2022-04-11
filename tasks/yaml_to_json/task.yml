@@ -1,0 +1,11 @@
+interpreter: python3
+requires:
+  pip:
+    - yaml
+    - json
+inputs:
+  - name: yaml
+    structure: string
+outputs:
+  - name: json
+    structure: string

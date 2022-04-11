@@ -1,0 +1,7 @@
+interpreter: python3
+inputs:
+  - name: file-path
+    structure: string
+outputs:
+  - name: file-contents
+    structure: string

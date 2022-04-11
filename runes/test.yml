@@ -1,0 +1,15 @@
+input:
+  file-path: tasks/yaml_to_json/task.yml
+
+tasks:
+  - name: read_file_contents
+    input: file-path
+    output: file-contents
+
+  - name: yaml_to_json
+    input: file-contents
+    output: json
+
+output: 
+  - name: json
+    alias: json2
